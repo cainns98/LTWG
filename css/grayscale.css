@@ -68,7 +68,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .navbar-custom .navbar-brand {
@@ -92,6 +92,11 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+}
+
+
+.navbar-custom.top-nav-collapse a {
+    color: #0B1A51;
 }
 
 .navbar-custom .nav li a {
@@ -124,6 +129,19 @@ a:focus {
     color: #fff;
 }
 
+
+@media(max-width:768px) {
+    .navbar-custom a {
+        color: #0B1A51;
+    }
+    
+    .navbar-custom .nav li a:hover {
+        outline: 0;
+        color: rgba(11,26,81,.8);
+        background-color: transparent;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -138,7 +156,13 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #fff;
+    }
+    
+    .navbar-custom.top-nav-collapse .nav li a:hover {
+        outline: 0;
+        color: rgba(11,26,81,.8);
+        background-color: transparent;
     }
 }
 
