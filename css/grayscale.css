@@ -42,11 +42,23 @@ p {
     line-height: 1.5;
 }
 
+#about h4 {
+    margin-top: 40px;
+}
+
+#about p {
+    margin: 0 0 10px;
+}
+
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+    }
+
+    #about p {
+        margin: 0 0 15px;
     }
 }
 
@@ -299,9 +311,8 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    color: #0B1A51;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
