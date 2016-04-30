@@ -14,6 +14,10 @@ body {
     background-color: #0B1A51;
 }
 
+button.navbar-toggle {
+    color: #0b1a51;
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -134,7 +138,7 @@ a:focus {
     .navbar-custom a {
         color: #0B1A51;
     }
-    
+
     .navbar-custom .nav li a:hover {
         outline: 0;
         color: rgba(11,26,81,.8);
