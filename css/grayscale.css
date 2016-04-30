@@ -344,6 +344,8 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    background: #fff;
+    color: #102372;
 }
 
 footer p {
@@ -372,4 +374,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+section#contact {
+    padding-bottom: 100px;
 }
