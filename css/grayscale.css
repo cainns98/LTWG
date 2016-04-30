@@ -192,6 +192,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 150%;
+    text-transform: uppercase;
 }
 
 .intro .intro-body .intro-text {
