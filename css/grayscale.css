@@ -199,6 +199,10 @@ a:focus {
     font-size: 18px;
 }
 
+.intro-text {
+    font-style: italic;
+}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
