@@ -281,9 +281,17 @@ a:focus {
     margin-top: 100px;
 }
 
+section#contact {
+    padding-bottom: 100px;
+}
+
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
+    }
+    
+    section#contact {
+        padding-bottom: 2500px;
     }
 
     .download-section {
@@ -376,6 +384,4 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
-section#contact {
-    padding-bottom: 100px;
-}
+
