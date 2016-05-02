@@ -435,3 +435,10 @@ body {
 div.panel-body {
     color: #0B1A51;
 }
+
+@media(max-width: 410px) {
+    .intro .intro-body .brand-heading {
+        font-size: 120%;
+        text-transform: uppercase;
+    }
+}
