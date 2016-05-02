@@ -432,6 +432,6 @@ body {
 }
 
 
-panel-body p {
+div.panel-body p {
     color: #0B1A51;
 }
